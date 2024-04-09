@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    overflow: hidden;
+}
+
+.background{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+header{
+    display:flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.cabeçalho-link{
+    display:flex;
+    gap:3rem;
+    font-weight:900;
+    cursor:pointer;
+}
+
+.cabeçalho-link a{
+    color: #adadad;
+    font-size: 12px;
+    display: inline-block;
+}
+
+.cabeçalho-link a:hover{
+    color: #00ff08;
+    transform: scale(1.05);
+    transition: .4s;
+}
+
+
+.logo i{
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 0.3pc solid #00ff08;
+    color: #00ff08;
+    border-radius: 100%;
+    display: inline-flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+button {
+    color: #00ff08;
+    background: transparent;
+    border: solid 1px #00ff08;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    width: 150px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color:#00ff08;
+    color: #fff;
+    box-shadow: 0px 0px 8px #00ff08;
+}
+
+.container-text {
+    display: flex;
+    align-items: center;
+    padding: 150px 0 0 130px;
+}
+
+
+.text h3{
+    color: #fff;
+    font-size: 20px;
+}
+
+.text h1{
+    color: #fff;
+    margin-top: 20px;
+}
+
+.text span{
+    color:#00ff08;
+}
+
+.text p{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.redes-sociais a{
+    color:#00ff08;
+    padding: 25px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.redes-sociais a:hover{
+    color: #00ff08;
+    transform: scale(1.5);
+    transition: .4s;
+}
+.btn{
+    margin-top: 10px;
+}
+
+.presentation-text {
+    display: flex;
+    align-items: center; /* Alinha verticalmente a imagem e o texto */
+    justify-content: space-between; /* Coloca a imagem e o texto em lados opostos */
+    padding-right: 20px;
+}
+
+.text {
+    flex: 1; /* Permite que o texto ocupe o espaço restante */
+    color: #fff;
+}
+
+.text img {
+    max-width: 100%;
+    width: 200px;
+    height: auto;
+    border: solid 2px #00ff08;
+    padding: 5px;
+    border-radius: 15px;
+    margin-left: 20px; /* Adiciona espaço entre a imagem e o texto */
+}
